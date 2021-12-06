@@ -1,0 +1,38 @@
+html {
+  background: #222;
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+.greet {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 8em;
+  left: 6em;
+  font-size: 1.5rem;
+  /* z-index: 3; */
+}
+.greet h1 {
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+.greet h3 {
+  color: white;
+}
+.greet article {
+  color: white;
+}
+
+.t3 {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  background-color: brown;
+}
